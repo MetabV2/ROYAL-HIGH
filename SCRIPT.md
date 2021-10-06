@@ -5,15 +5,15 @@ local CloseButton = Instance.new("ImageButton")
 local UIGradient = Instance.new("UIGradient")
 local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 local ScrollingFrame = Instance.new("ScrollingFrame")
-local Button1 = Instance.new("ImageButton")
+local Button2 = Instance.new("ImageButton")
 local BtnText = Instance.new("TextLabel")
 local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
 local UIGradient_2 = Instance.new("UIGradient")
-local Button2 = Instance.new("ImageButton")
+local Button2_2 = Instance.new("ImageButton")
 local BtnText_2 = Instance.new("TextLabel")
 local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
 local UIGradient_3 = Instance.new("UIGradient")
-local Button2_2 = Instance.new("ImageButton")
+local Button1 = Instance.new("ImageButton")
 local BtnText_3 = Instance.new("TextLabel")
 local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
 local UIGradient_4 = Instance.new("UIGradient")
@@ -63,42 +63,6 @@ ScrollingFrame.Position = UDim2.new(0.36953643, 0, 0.380081296, 0)
 ScrollingFrame.Size = UDim2.new(0, 195, 0, 243)
 ScrollingFrame.ScrollBarThickness = 5
 
-Button1.Name = "Button 1 "
-Button1.Parent = ScrollingFrame
-Button1.AnchorPoint = Vector2.new(1, 1)
-Button1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button1.BackgroundTransparency = 1.000
-Button1.BorderSizePixel = 5
-Button1.Position = UDim2.new(0.945403278, 0, 0.0661384612, 0)
-Button1.Size = UDim2.new(0.882225692, 0, 0.0763209537, 0)
-Button1.Image = "rbxassetid://2790382281"
-Button1.ImageColor3 = Color3.fromRGB(26, 190, 190)
-Button1.ScaleType = Enum.ScaleType.Slice
-Button1.SliceCenter = Rect.new(4, 4, 252, 252)
-
-BtnText.Name = "BtnText"
-BtnText.Parent = Button1
-BtnText.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText.BackgroundTransparency = 1.000
-BtnText.BorderSizePixel = 0
-BtnText.Position = UDim2.new(0.498592883, 0, 0.488144726, 0)
-BtnText.Size = UDim2.new(0.891457498, -5, 0.468874484, -5)
-BtnText.Font = Enum.Font.GothamBlack
-BtnText.Text = "AUTO FARM CANDY"
-BtnText.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText.TextScaled = true
-BtnText.TextSize = 14.000
-BtnText.TextWrapped = true
-
-UIAspectRatioConstraint_2.Parent = Button1
-UIAspectRatioConstraint_2.AspectRatio = 3.042
-
-UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_2.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_2.Rotation = -135
-UIGradient_2.Parent = Button1
-
 Button2.Name = "Button 2"
 Button2.Parent = ScrollingFrame
 Button2.AnchorPoint = Vector2.new(1, 1)
@@ -111,28 +75,28 @@ Button2.ImageColor3 = Color3.fromRGB(26, 190, 190)
 Button2.ScaleType = Enum.ScaleType.Slice
 Button2.SliceCenter = Rect.new(4, 4, 252, 252)
 
-BtnText_2.Name = "BtnText"
-BtnText_2.Parent = Button2
-BtnText_2.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_2.BackgroundTransparency = 1.000
-BtnText_2.BorderSizePixel = 0
-BtnText_2.Position = UDim2.new(0.498592883, 0, 0.550041258, 0)
-BtnText_2.Size = UDim2.new(0.891457498, -5, 0.59266752, -5)
-BtnText_2.Font = Enum.Font.GothamBlack
-BtnText_2.Text = "INVISIBLE"
-BtnText_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_2.TextScaled = true
-BtnText_2.TextSize = 5.000
-BtnText_2.TextWrapped = true
+BtnText.Name = "BtnText"
+BtnText.Parent = Button2
+BtnText.AnchorPoint = Vector2.new(0.5, 0.5)
+BtnText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BtnText.BackgroundTransparency = 1.000
+BtnText.BorderSizePixel = 0
+BtnText.Position = UDim2.new(0.498592883, 0, 0.550041258, 0)
+BtnText.Size = UDim2.new(0.891457498, -5, 0.59266752, -5)
+BtnText.Font = Enum.Font.GothamBlack
+BtnText.Text = "INVISIBLE"
+BtnText.TextColor3 = Color3.fromRGB(255, 255, 255)
+BtnText.TextScaled = true
+BtnText.TextSize = 5.000
+BtnText.TextWrapped = true
 
-UIAspectRatioConstraint_3.Parent = Button2
-UIAspectRatioConstraint_3.AspectRatio = 3.042
+UIAspectRatioConstraint_2.Parent = Button2
+UIAspectRatioConstraint_2.AspectRatio = 3.042
 
-UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_3.Offset = Vector2.new(-0.349999994, 0)
-UIGradient_3.Rotation = -135
-UIGradient_3.Parent = Button2
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_2.Offset = Vector2.new(-0.349999994, 0)
+UIGradient_2.Rotation = -135
+UIGradient_2.Parent = Button2
 
 Button2_2.Name = "Button 2"
 Button2_2.Parent = ScrollingFrame
@@ -146,28 +110,64 @@ Button2_2.ImageColor3 = Color3.fromRGB(26, 190, 190)
 Button2_2.ScaleType = Enum.ScaleType.Slice
 Button2_2.SliceCenter = Rect.new(4, 4, 252, 252)
 
+BtnText_2.Name = "BtnText"
+BtnText_2.Parent = Button2_2
+BtnText_2.AnchorPoint = Vector2.new(0.5, 0.5)
+BtnText_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_2.BackgroundTransparency = 1.000
+BtnText_2.BorderSizePixel = 0
+BtnText_2.Position = UDim2.new(0.498592883, 0, 0.550041258, 0)
+BtnText_2.Size = UDim2.new(0.891457498, -5, 0.59266752, -5)
+BtnText_2.Font = Enum.Font.GothamBlack
+BtnText_2.Text = "FLY CAR (P)"
+BtnText_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_2.TextScaled = true
+BtnText_2.TextSize = 5.000
+BtnText_2.TextWrapped = true
+
+UIAspectRatioConstraint_3.Parent = Button2_2
+UIAspectRatioConstraint_3.AspectRatio = 3.042
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_3.Offset = Vector2.new(-0.349999994, 0)
+UIGradient_3.Rotation = -135
+UIGradient_3.Parent = Button2_2
+
+Button1.Name = "Button 1 "
+Button1.Parent = ScrollingFrame
+Button1.AnchorPoint = Vector2.new(1, 1)
+Button1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button1.BackgroundTransparency = 1.000
+Button1.BorderSizePixel = 5
+Button1.Position = UDim2.new(0.944999993, 0, 0.129999995, 0)
+Button1.Size = UDim2.new(0.882225692, 0, 0.0763209537, 0)
+Button1.Image = "rbxassetid://2790382281"
+Button1.ImageColor3 = Color3.fromRGB(26, 190, 190)
+Button1.ScaleType = Enum.ScaleType.Slice
+Button1.SliceCenter = Rect.new(4, 4, 252, 252)
+
 BtnText_3.Name = "BtnText"
-BtnText_3.Parent = Button2_2
+BtnText_3.Parent = Button1
 BtnText_3.AnchorPoint = Vector2.new(0.5, 0.5)
 BtnText_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BtnText_3.BackgroundTransparency = 1.000
 BtnText_3.BorderSizePixel = 0
-BtnText_3.Position = UDim2.new(0.498592883, 0, 0.550041258, 0)
-BtnText_3.Size = UDim2.new(0.891457498, -5, 0.59266752, -5)
+BtnText_3.Position = UDim2.new(0.498592883, 0, 0.488144726, 0)
+BtnText_3.Size = UDim2.new(0.891457498, -5, 0.468874484, -5)
 BtnText_3.Font = Enum.Font.GothamBlack
-BtnText_3.Text = "FLY CAR (P)"
+BtnText_3.Text = "COLLECT ALL CHEST"
 BtnText_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 BtnText_3.TextScaled = true
-BtnText_3.TextSize = 5.000
+BtnText_3.TextSize = 14.000
 BtnText_3.TextWrapped = true
 
-UIAspectRatioConstraint_4.Parent = Button2_2
+UIAspectRatioConstraint_4.Parent = Button1
 UIAspectRatioConstraint_4.AspectRatio = 3.042
 
 UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(19, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
 UIGradient_4.Offset = Vector2.new(-0.349999994, 0)
 UIGradient_4.Rotation = -135
-UIGradient_4.Parent = Button2_2
+UIGradient_4.Parent = Button1
 
 Button1_2.Name = "Button 1 "
 Button1_2.Parent = ScrollingFrame
@@ -175,7 +175,7 @@ Button1_2.AnchorPoint = Vector2.new(1, 1)
 Button1_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Button1_2.BackgroundTransparency = 1.000
 Button1_2.BorderSizePixel = 5
-Button1_2.Position = UDim2.new(0.944999993, 0, 0.129999995, 0)
+Button1_2.Position = UDim2.new(0.945403278, 0, 0.0661384612, 0)
 Button1_2.Size = UDim2.new(0.882225692, 0, 0.0763209537, 0)
 Button1_2.Image = "rbxassetid://2790382281"
 Button1_2.ImageColor3 = Color3.fromRGB(26, 190, 190)
@@ -191,7 +191,7 @@ BtnText_4.BorderSizePixel = 0
 BtnText_4.Position = UDim2.new(0.498592883, 0, 0.488144726, 0)
 BtnText_4.Size = UDim2.new(0.891457498, -5, 0.468874484, -5)
 BtnText_4.Font = Enum.Font.GothamBlack
-BtnText_4.Text = "COLLECT ALL CHEST"
+BtnText_4.Text = "AUTO FARM CANDY"
 BtnText_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 BtnText_4.TextScaled = true
 BtnText_4.TextSize = 14.000
@@ -214,7 +214,7 @@ ImageButton.Image = "http://www.roblox.com/asset/?id=7529900564"
 
 -- Scripts:
 
-local function IANEDHB_fake_script() -- ImageLabel.LocalScript 
+local function ENBTZVU_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	
@@ -292,8 +292,8 @@ local function IANEDHB_fake_script() -- ImageLabel.LocalScript
 	
 	
 end
-coroutine.wrap(IANEDHB_fake_script)()
-local function UWNWUN_fake_script() -- ImageLabel.LocalScript 
+coroutine.wrap(ENBTZVU_fake_script)()
+local function BFBACEE_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	while true do
@@ -311,16 +311,16 @@ local function UWNWUN_fake_script() -- ImageLabel.LocalScript
 		wait(.7)
 	end
 end
-coroutine.wrap(UWNWUN_fake_script)()
-local function PEHFKH_fake_script() -- CloseButton.LocalScript 
+coroutine.wrap(BFBACEE_fake_script)()
+local function ZFCSE_fake_script() -- CloseButton.LocalScript 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(PEHFKH_fake_script)()
-local function CXKGR_fake_script() -- CloseButton.ANIME 
+coroutine.wrap(ZFCSE_fake_script)()
+local function OGXGMJ_fake_script() -- CloseButton.ANIME 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	local btn = script.Parent
@@ -363,38 +363,8 @@ local function CXKGR_fake_script() -- CloseButton.ANIME
 		end
 	end)
 end
-coroutine.wrap(CXKGR_fake_script)()
-local function FUNOU_fake_script() -- Button1.METAB SCRIPT 
-	local script = Instance.new('LocalScript', Button1)
-
-	script.Parent.MouseButton1Down:connect(function()
-	
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-426.94769287109, 122.1196975708, -421.42504882813)
-		
-				
-		local vim = game:service'VirtualInputManager'
-	
-		while wait(1) do
-			vim:SendKeyEvent(true, "E", false, game)
-		end
-		end)
-	
-	while true do
-		wait(1)
-				local UwU = game.Players.LocalPlayer.Character.HumanoidRootPart
-				for i,v in pairs(game.workspace.DroppedCandyFolder:GetChildren()) do
-					UwU.CFrame = v.CFrame
-	
-	
-		end
-	end
-	
-	
-	
-	
-end
-coroutine.wrap(FUNOU_fake_script)()
-local function PVGZ_fake_script() -- Button2.Button7Script 
+coroutine.wrap(OGXGMJ_fake_script)()
+local function ZBRVW_fake_script() -- Button2.Button7Script 
 	local script = Instance.new('LocalScript', Button2)
 
 	local btn = script.Parent
@@ -437,8 +407,8 @@ local function PVGZ_fake_script() -- Button2.Button7Script
 		end
 	end)
 end
-coroutine.wrap(PVGZ_fake_script)()
-local function RXYT_fake_script() -- Button2.METAB SCRIPT 
+coroutine.wrap(ZBRVW_fake_script)()
+local function SQHWDOE_fake_script() -- Button2.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2)
 
 	
@@ -466,8 +436,8 @@ local function RXYT_fake_script() -- Button2.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(RXYT_fake_script)()
-local function TZRUWH_fake_script() -- Button2_2.Button7Script 
+coroutine.wrap(SQHWDOE_fake_script)()
+local function VIALXRW_fake_script() -- Button2_2.Button7Script 
 	local script = Instance.new('LocalScript', Button2_2)
 
 	local btn = script.Parent
@@ -510,8 +480,8 @@ local function TZRUWH_fake_script() -- Button2_2.Button7Script
 		end
 	end)
 end
-coroutine.wrap(TZRUWH_fake_script)()
-local function DNGL_fake_script() -- Button2_2.METAB SCRIPT 
+coroutine.wrap(VIALXRW_fake_script)()
+local function DXEL_fake_script() -- Button2_2.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_2)
 
 	
@@ -622,9 +592,9 @@ local function DNGL_fake_script() -- Button2_2.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(DNGL_fake_script)()
-local function EVCUT_fake_script() -- Button1_2.ANIME 
-	local script = Instance.new('LocalScript', Button1_2)
+coroutine.wrap(DXEL_fake_script)()
+local function VDCXJEV_fake_script() -- Button1.ANIME 
+	local script = Instance.new('LocalScript', Button1)
 
 	local btn = script.Parent
 	local uiGradient = btn:WaitForChild("UIGradient")
@@ -666,64 +636,24 @@ local function EVCUT_fake_script() -- Button1_2.ANIME
 		end
 	end)
 end
-coroutine.wrap(EVCUT_fake_script)()
-local function LHSTJLJ_fake_script() -- Button1_2.METAB SCRIPT 
-	local script = Instance.new('LocalScript', Button1_2)
+coroutine.wrap(VDCXJEV_fake_script)()
+local function ZPCDAW_fake_script() -- Button1.METAB SCRIPT 
+	local script = Instance.new('LocalScript', Button1)
 
 	
-	
-	
-	
-	
-	toggle = false
 	script.Parent.MouseButton1Down:connect(function()
 	
-		if toggle == true then 
-			toggle = false 
-		else
-			toggle = true
-		end
-		if toggle == true then 
-			script.Parent.ImageColor3 = Color3.fromRGB(0, 255, 0)
-		end
-		if toggle == false then 
-			script.Parent.ImageColor3 = Color3.fromRGB(170, 0, 0)
-		end
-	
-		if toggle == true then
-			_G.Toggle = true
-			while _G.Toggle do
-				wait(2)
-	
-					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-348.77319335938, 125.1031036377, -318.32928466797)
-					wait(3)
-					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-813.97332763672, 121.34390258789, -759.89318847656)
-					wait(3)
-					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-813.97332763672, 121.34390258789, -759.89318847656)
-					wait(3)
-					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-546.83831787109, 106.13489532471, -883.93634033203)
-					wait(3)
-					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-500.14877319336, 107.79285430908, -796.86901855469)
-					wait(3)
-				end
-			end
-		if toggle == false then 
-			_G.Toggle = false
-			while _G.Toggle do
-				wait()
-	
-				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-348.77319335938, 125.1031036377, -318.32928466797)
-				wait(3)
-				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-813.97332763672, 121.34390258789, -759.89318847656)
-				wait(3)
-				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-813.97332763672, 121.34390258789, -759.89318847656)
-				wait(3)
-				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-546.83831787109, 106.13489532471, -883.93634033203)
-				wait(3)
-				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-500.14877319336, 107.79285430908, -796.86901855469)
-				wait(3)
-			end
-		end
+			
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-348.77319335938, 125.1031036377, -318.32928466797)
+			wait(2)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-813.97332763672, 121.34390258789, -759.89318847656)
+			wait(2)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-813.97332763672, 121.34390258789, -759.89318847656)
+			wait(2)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-546.83831787109, 106.13489532471, -883.93634033203)
+			wait(2)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-500.14877319336, 107.79285430908, -796.86901855469)
+			
 		end)
 	
 	
@@ -732,10 +662,47 @@ local function LHSTJLJ_fake_script() -- Button1_2.METAB SCRIPT
 	
 	
 	
+end
+coroutine.wrap(ZPCDAW_fake_script)()
+local function QVNTCJJ_fake_script() -- Button1_2.METAB SCRIPT 
+	local script = Instance.new('LocalScript', Button1_2)
+
+	script.Parent.MouseButton1Down:connect(function()
+	
+		game:GetService("RunService").Heartbeat:Connect(function()
+			for i,v in pairs(game:GetService("Workspace").DroppedCandyFolder:GetChildren()) do
+				if v.ClassName == "MeshPart" or v.ClassName == "Part" then
+					v.CanCollide = false
+					v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+				end
+			end
+	
+		end)
+	
+		repeat wait()
+			for i,v in pairs(game:GetService("Workspace").TrickorTreatDoors:GetChildren()) do
+				if v.ClassName == "Model"  then
+					wait(1)
+					pcall(function()
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Doorbell.CFrame
+						game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
+						game.Workspace.Gravity = 1000
+						wait(1)
+						fireproximityprompt(v.Doorbell.Attachment.ProximityPrompt)
+						wait(2)
+					end)
+				end
+			end
+		until getgenv().start == false
+		end)
+	
+	
+	
+	
 	
 end
-coroutine.wrap(LHSTJLJ_fake_script)()
-local function XRZGDGK_fake_script() -- Button1_2.ANIME 
+coroutine.wrap(QVNTCJJ_fake_script)()
+local function VSNYZV_fake_script() -- Button1_2.ANIME 
 	local script = Instance.new('LocalScript', Button1_2)
 
 	local btn = script.Parent
@@ -778,8 +745,8 @@ local function XRZGDGK_fake_script() -- Button1_2.ANIME
 		end
 	end)
 end
-coroutine.wrap(XRZGDGK_fake_script)()
-local function WRXCID_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(VSNYZV_fake_script)()
+local function KEFOW_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -787,4 +754,4 @@ local function WRXCID_fake_script() -- ImageButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(WRXCID_fake_script)()
+coroutine.wrap(KEFOW_fake_script)()
