@@ -214,7 +214,7 @@ ImageButton.Image = "http://www.roblox.com/asset/?id=7529900564"
 
 -- Scripts:
 
-local function BRHRHPX_fake_script() -- ImageLabel.LocalScript 
+local function PJYP_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	
@@ -292,8 +292,8 @@ local function BRHRHPX_fake_script() -- ImageLabel.LocalScript
 	
 	
 end
-coroutine.wrap(BRHRHPX_fake_script)()
-local function CCDYM_fake_script() -- ImageLabel.LocalScript 
+coroutine.wrap(PJYP_fake_script)()
+local function RFMQ_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	while true do
@@ -311,16 +311,16 @@ local function CCDYM_fake_script() -- ImageLabel.LocalScript
 		wait(.7)
 	end
 end
-coroutine.wrap(CCDYM_fake_script)()
-local function XZBFEK_fake_script() -- CloseButton.LocalScript 
+coroutine.wrap(RFMQ_fake_script)()
+local function PTVMGB_fake_script() -- CloseButton.LocalScript 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(XZBFEK_fake_script)()
-local function HXEKZBR_fake_script() -- CloseButton.ANIME 
+coroutine.wrap(PTVMGB_fake_script)()
+local function OFJW_fake_script() -- CloseButton.ANIME 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	local btn = script.Parent
@@ -363,8 +363,8 @@ local function HXEKZBR_fake_script() -- CloseButton.ANIME
 		end
 	end)
 end
-coroutine.wrap(HXEKZBR_fake_script)()
-local function JSXCPQS_fake_script() -- Button2.Button7Script 
+coroutine.wrap(OFJW_fake_script)()
+local function FDNPY_fake_script() -- Button2.Button7Script 
 	local script = Instance.new('LocalScript', Button2)
 
 	local btn = script.Parent
@@ -407,8 +407,8 @@ local function JSXCPQS_fake_script() -- Button2.Button7Script
 		end
 	end)
 end
-coroutine.wrap(JSXCPQS_fake_script)()
-local function FRAD_fake_script() -- Button2.METAB SCRIPT 
+coroutine.wrap(FDNPY_fake_script)()
+local function VOSK_fake_script() -- Button2.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2)
 
 	
@@ -436,8 +436,8 @@ local function FRAD_fake_script() -- Button2.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(FRAD_fake_script)()
-local function UXWNBYA_fake_script() -- Button2_2.Button7Script 
+coroutine.wrap(VOSK_fake_script)()
+local function ZMYQXV_fake_script() -- Button2_2.Button7Script 
 	local script = Instance.new('LocalScript', Button2_2)
 
 	local btn = script.Parent
@@ -480,8 +480,8 @@ local function UXWNBYA_fake_script() -- Button2_2.Button7Script
 		end
 	end)
 end
-coroutine.wrap(UXWNBYA_fake_script)()
-local function EWYADOQ_fake_script() -- Button2_2.METAB SCRIPT 
+coroutine.wrap(ZMYQXV_fake_script)()
+local function WYRWL_fake_script() -- Button2_2.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button2_2)
 
 	
@@ -592,8 +592,8 @@ local function EWYADOQ_fake_script() -- Button2_2.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(EWYADOQ_fake_script)()
-local function FHZR_fake_script() -- Button1.ANIME 
+coroutine.wrap(WYRWL_fake_script)()
+local function VPNTMMV_fake_script() -- Button1.ANIME 
 	local script = Instance.new('LocalScript', Button1)
 
 	local btn = script.Parent
@@ -636,8 +636,8 @@ local function FHZR_fake_script() -- Button1.ANIME
 		end
 	end)
 end
-coroutine.wrap(FHZR_fake_script)()
-local function SMEYWV_fake_script() -- Button1.METAB SCRIPT 
+coroutine.wrap(VPNTMMV_fake_script)()
+local function YIRBXV_fake_script() -- Button1.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button1)
 
 	
@@ -663,8 +663,8 @@ local function SMEYWV_fake_script() -- Button1.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(SMEYWV_fake_script)()
-local function FWLCIWJ_fake_script() -- Button1_2.METAB SCRIPT 
+coroutine.wrap(YIRBXV_fake_script)()
+local function QOWILKM_fake_script() -- Button1_2.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button1_2)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -704,8 +704,8 @@ local function FWLCIWJ_fake_script() -- Button1_2.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(FWLCIWJ_fake_script)()
-local function QHEHTGO_fake_script() -- Button1_2.ANIME 
+coroutine.wrap(QOWILKM_fake_script)()
+local function ADLDILO_fake_script() -- Button1_2.ANIME 
 	local script = Instance.new('LocalScript', Button1_2)
 
 	local btn = script.Parent
@@ -748,8 +748,8 @@ local function QHEHTGO_fake_script() -- Button1_2.ANIME
 		end
 	end)
 end
-coroutine.wrap(QHEHTGO_fake_script)()
-local function AHKPY_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(ADLDILO_fake_script)()
+local function XYFXMT_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -757,4 +757,4 @@ local function AHKPY_fake_script() -- ImageButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(AHKPY_fake_script)()
+coroutine.wrap(XYFXMT_fake_script)()
